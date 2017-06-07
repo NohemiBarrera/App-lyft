@@ -9,3 +9,23 @@ video{
   z-index: -100;
   transform: translate(-50%, -50%);
 }
+button{
+	position: relative;
+	top: 85vh;
+	left: 5%;
+	width: 45%;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 2em;
+	color: white;
+	letter-spacing: 5px;
+}
+button#signup{
+	background-image: url(../img/fondoMorado.jpg);
+	background-position: bottom;
+	border: none;
+	padding: 6px;
+	cursor: pointer;
+}
